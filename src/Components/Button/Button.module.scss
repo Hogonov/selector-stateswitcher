@@ -1,0 +1,44 @@
+$color: #5974AB;
+$colorHover: #5582cf;
+$colorFocus: #546a96;
+
+$colorRed: #9f2727;
+$colorRedHover: #cd3333;
+$colorRedFocus: #751d1d;
+
+$colorGreen: #339f27;
+$colorGreenHover: #33cd3b;
+$colorGreenFocus: #2a751d;
+
+.button {
+  background-color: $color;
+  margin-right: 10px;
+  &:hover {
+    background-color: $colorHover;
+  }
+  &:focus {
+    background-color: $colorFocus;
+  }
+}
+
+.buttonRed {
+  background-color: $colorRed;
+  margin-right: 10px;
+  &:hover {
+    background-color: $colorRedHover;
+  }
+  &:focus {
+    background-color: $colorRedFocus;
+  }
+}
+
+.buttonGreen {
+  background-color: $colorGreen;
+  margin-right: 10px;
+  &:hover {
+    background-color: $colorGreenHover;
+  }
+  &:focus {
+    background-color: $colorGreenFocus;
+  }
+}

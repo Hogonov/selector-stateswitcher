@@ -1,0 +1,25 @@
+$bgColor: rgba(17, 17, 17, 0.07);
+
+.main {
+  display: flex;
+  justify-content: center;
+
+  .checkedOption {
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    padding: 0 5px 0 5px;
+    background-color: $bgColor;
+    width: min-content;
+
+    .svg {
+      background-image: url("../../Public/img/cancel.svg");
+      width: 10px;
+      height: 10px;
+      margin-left: 5px;
+      margin-top: 7px;
+      cursor: pointer;
+    }
+  }
+
+}
